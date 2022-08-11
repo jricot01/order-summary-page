@@ -1,0 +1,150 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.center {
+  margin: 90px auto;
+  width: 450px;
+  height: 690px;
+  border: 3px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.main-image {
+  display: inline-block;
+  width: 450px;
+}
+
+.lady {
+  border-radius: 17px 17px 0 0;
+}
+
+.main-component {
+}
+
+h1 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 25px;
+  color: hsl(223, 47%, 23%);
+}
+
+.main-summary {
+  text-align: center;
+  margin: 0px 70px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5;
+}
+
+hr {
+  border-style: none;
+  margin-block-start: -4px;
+  margin-block-end: -4px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.annual-plan {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+
+.price {
+  color: hsl(224, 23%, 55%);
+  font-weight: 400;
+}
+
+.plan {
+  position: absolute;
+  left: 100px;
+}
+
+.change {
+  color: hsl(245, 75%, 52%);
+}
+
+.change:hover {
+  color: hsl(244, 100%, 75%);
+  transition: 0.4s;
+}
+
+.mac {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 25px 40px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+music-icon {
+  position: absolute;
+}
+
+.button-1 {
+  width: 400px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  display: inline-block;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0px 15px 10px hsla(245, 75%, 52%, 0.17);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button-1:hover {
+  background-color: hsl(224, 23%, 55%);
+  box-shadow: 0px 15px 10px hsla(224, 23%, 55%, 0.17);
+  color: hsl(0, 0%, 100%);
+  transition: 0.7s;
+}
+
+.button-1-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 40px;
+}
+
+.button-2 {
+  width: 400px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  display: inline-block;
+  background-color: transparent;
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button-2:hover {
+  color: hsl(245, 75%, 52%);
+  transition: 0.7s;
+}
+
+.button-2-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 40px;
+}
